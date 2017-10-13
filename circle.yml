@@ -1,0 +1,9 @@
+machine:
+  java:
+    version: oraclejdk8
+
+deployment:
+  staging:
+    branch: master
+    heroku: 
+      appname: Lab6-MyBatis_Introduction_ConsultasPacientes
