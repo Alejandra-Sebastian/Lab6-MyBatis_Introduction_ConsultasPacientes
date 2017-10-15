@@ -40,7 +40,7 @@ public class ServiciosPacientesTest {
     }
     
     @Test
-    public void ElPacienteNoEstaRegistrado() {
+    public void elPacienteNoEstaRegistrado() {
         Consulta consulta = new Consulta(new Date(21,9,2017,10,21), "Es una consulta", 15000);
         try {
             servicepacientes.agregarConsultaPaciente(0, "numerico", consulta);
@@ -50,7 +50,7 @@ public class ServiciosPacientesTest {
     }
     
     @Test
-    public void RegistroDePaciente(){       
+    public void registroDePaciente(){       
         int id = 1234;
         String tipoid= "TI";
         String nombre="Juanchito"; 
