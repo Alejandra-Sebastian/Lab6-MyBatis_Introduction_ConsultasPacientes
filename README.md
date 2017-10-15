@@ -2,6 +2,8 @@
 ### Procesos de desarrollo de Software - PDSW
 #### Tecnologías de persistencia - Frameworks de Persistencia - Introducción a MyBatis
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f26b2dbf9d3f448d9b83d798de517f6b)](https://www.codacy.com/app/Sebasreyes01/Lab6-MyBatis_Introduction_ConsultasPacientes?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Alejandra-Sebastian/Lab6-MyBatis_Introduction_ConsultasPacientes&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/Alejandra-Sebastian/Lab6-MyBatis_Introduction_ConsultasPacientes/tree/master.svg?style=svg)](https://circleci.com/gh/Alejandra-Sebastian/Lab6-MyBatis_Introduction_ConsultasPacientes/tree/master)
 
 
 ## Parte III (a partir del Martes)
