@@ -6,4 +6,4 @@ deployment:
   staging:
     branch: master
     heroku: 
-      appname: Lab6-MyBatis_Introduction_ConsultasPacientes
+      appname: consultaspacienteslab6
