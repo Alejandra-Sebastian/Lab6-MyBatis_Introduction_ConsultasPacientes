@@ -16,6 +16,8 @@
  */
 package edu.eci.pdsw.samples.services.impl;
 
+import com.google.inject.Inject;
+import edu.eci.pdsw.persistance.*;
 import edu.eci.pdsw.samples.entities.Consulta;
 import edu.eci.pdsw.samples.entities.Eps;
 import edu.eci.pdsw.samples.entities.Paciente;
@@ -37,6 +39,12 @@ import java.util.logging.Logger;
  * @author hcadavid
  */
 public class ServiciosPacientesMock implements ServiciosPacientes {
+    
+    @Inject
+    private EpsDAO epsDao;
+    
+    @Inject
+    private PacienteDAO paciDao;
 
     private final Map<Tupla<Integer, String>, Paciente> pacientes;
     private final List<Eps> epsregistradas;
